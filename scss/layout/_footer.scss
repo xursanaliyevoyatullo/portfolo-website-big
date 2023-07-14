@@ -1,0 +1,102 @@
+.footer {
+    background-color: $hero-header-bg;
+    background-image: url('../../images/footer__background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer__container {
+
+}
+
+.footer__top {
+    display: flex;
+    padding-top: 10.2rem;
+    justify-content: space-between;
+    gap: 3.2rem;
+    margin-bottom: 10rem;
+}
+
+.footer__header__img {
+    margin-left: -8.5rem;
+}
+
+.footer__header__texts {
+
+}
+
+.footer__quote__img {
+    padding-top: 14rem;
+    margin-bottom: 2.8rem;
+}
+
+.footer__section__text {
+    font-family: $main-font;
+    font-weight: $h2-fw;
+    line-height: $h2-lh;
+
+    font-size: 1.6rem;
+    color: $white-color;
+    margin-bottom: 3.3rem;
+}
+
+.footer__text {
+    font-family: $main-font;
+    font-weight: $p-fw;
+    font-size: 1.6rem;
+    color: #AABFC6;
+}
+
+.footer__bottom {
+    padding-top: 10rem;
+    padding-bottom: 19rem;
+    display: flex;
+}
+
+.footer__bottom__left {
+    .footer__bottom__logo {
+        padding-bottom: 2rem;
+    }
+    .footer__bottom__left__text {
+        font-family: $main-font;
+        font-weight: $p-fw;
+        width: 344px;
+        font-size: 1.8rem;
+        padding-bottom: 3rem;
+        color: $secondary-text-light-color;
+    }
+    .footer__bottom__left__icons {
+        display: flex;
+        gap: 1.2rem;
+        align-items: center;
+    }
+}
+
+.footer__bottom__pages {
+    font-family: $main-font;
+    font-weight: $p-fw;
+    color: $cyan-color;
+    font-size: 1.8rem;
+    margin-left: 20.4rem;
+}
+
+.footer__bottom__pages__center {
+    color: $cyan-color; 
+}
+
+.footer__bottom__pages__right {
+    color: $cyan-color;
+}
+
+.footer__contact-list {
+    padding-top: 2.8rem;
+}
+
+.list_link{
+    padding-bottom: 1rem;
+    color: $secondary-text-light-color;
+} 
+
+.footer__pages-link {
+    width: 208px;
+}

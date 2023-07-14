@@ -1,0 +1,85 @@
+.header {
+    background-color: $hero-header-bg;
+    background-image: url('../images/hero-blur-image-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header__top__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
+}
+
+.sitenav__list {
+    display: flex;
+    gap: 5rem;
+
+    a {
+        color: $link-color;
+        transition: 0.3s;
+        position: relative;
+
+        &:hover {
+            color:$orange-color;
+        }
+
+        &::before {
+            display: inline-block;
+            content:'';
+            position: absolute;
+            height: 2px;
+            width: 0%;
+            bottom:0;
+            background:$link-color;
+            transition: 0.3s;
+        }
+
+        &:hover::before {
+            width: 100%;
+        }
+    }
+}
+
+.header__hero__container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25rem;
+}
+
+.header__link {
+    padding: 1.5rem 4.5rem;
+    background: $cyan-color-light;
+    color: $white-color;
+    border-radius: 2.5rem;
+    text-align: center;
+}
+
+.header__hero__link {
+    font-family: $secondary-font;
+    padding: 0.8rem 3.1rem;
+    background: $cyan-color-seondary-light;
+    color: $white-color;
+    border-radius: 3rem;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.header__hero__work {
+    width: 53.7rem;
+    font-family: $main-font;
+    font-size: $h1-fs;
+    color: $white-color;
+    line-height: $h1-lh;
+    margin-bottom: 3rem;
+}
+
+.header__hero__product {
+    width: 51.1rem;
+    font-family: $main-font;
+    font-weight: $p-fw;
+    color: $p-color;
+    margin-bottom: 5rem;
+}

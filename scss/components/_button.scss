@@ -1,0 +1,19 @@
+
+.header__hero__btns {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    font-family: $main-font;
+}
+
+.header__hero__hire {
+    padding: 1.5rem 3.2rem;
+    background: $orange-color;
+    color: $white-color;
+    border-radius: 2.5rem;
+    text-align: center;
+}
+
+.header__hero__my-work {
+    color: $a-color;
+}
